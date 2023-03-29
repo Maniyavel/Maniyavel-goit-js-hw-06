@@ -9,7 +9,7 @@ function onSubmit(evt){
 //}
 
 if(email.value===""||password.value===""){
-    return console.log('всі поля повинні бути заповнені');
+    return alert('всі поля повинні бути заповнені');
 }
 console.log(`email:${email.value} password:${password.value}`);
 evt.currentTarget.reset();
